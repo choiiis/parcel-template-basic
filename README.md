@@ -3,7 +3,13 @@
 parcel 기본 템플릿 업로드용  
 (FastCampus FE 강의 中 Parcel Bundler 실습)
 
-### static files 연결 (favicon 적용)
+### Parcel bunlder 패키지 설치
+
+```bash
+npm i parcel-bundler -D
+```
+
+### Static files 연결 (favicon 적용)
 
 favicon을 dist로 자동으로 넣기
 
@@ -30,7 +36,7 @@ npm i -D parcel-plugin-static-files-copy
 - static 디렉토리 생성 -> 하위에 favicon.ico 이동
 - npm run dev 하면 dist 하위에 favicon.ico 자동 생성
 
-### autoprefixer
+### Autoprefixer
 
 표준 기술이 돌아가지 않는 경우 동작하도록 함 (Vendor Prefix)  
 스타일 보험 형태로 사용한다고 볼 수 있음
